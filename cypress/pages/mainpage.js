@@ -5,7 +5,6 @@ class Main {
         createFreeAccountLabel: () => cy.get(".gjiitA"),
         switchSaveLabel: () => cy.get('h2 [href*="/sign-up"]>span'),
         createFreeTrialAccount: () => cy.get(' [href*="telnyx.com/sign-up"].sc-5d3a275a-4'),
-        createFreeAccountLabel: () => cy.get("h1.gkWopw"),
         powerfulProductsLabel: () => cy.get(".iwfftK>div>header>h2"),
         exploreOurProductsLink: () => cy.get('[href="/products"][class*= "eUnEoi"]'),
         productsLabel: () => cy.get(".juvWNo"),

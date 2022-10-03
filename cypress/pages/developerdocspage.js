@@ -6,10 +6,8 @@ class DeveloperDocs {
         phoneNumbersLink: () => cy.get(".fsStYO>div>a:nth-child(5)>span"),
         buyYourFirstNumberButton: () => cy.get(".hhNmHu"),
         setupGuideLink: () => cy.get('[id="setup-guide"]'),
-
         webRtcLabel: () => cy.get(".fsStYO>div>a:nth-child(10)>span"),
         setupWebRtcButton: () => cy.get('.fkNdTQ[href*="webrtc/quickstart"]'),
-
         webRtcQuickstartLabel: () => cy.get('[id="webrtc-quickstart"]'),
         videoRoomsLink: () => cy.get(".fsStYO>div>a:nth-child(11)>span"),
         checkOutOurSdksButton: () => cy.get('[href*="/basic-concepts#client-sdks"]'),
